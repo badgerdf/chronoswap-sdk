@@ -73,5 +73,13 @@ export const WETH = {
     'WCRO',
     'Wrapped CRO',
     'https://www.crypto.org'
+  ),
+  [ChainId.TESTNET]: new Token(
+    ChainId.TESTNET,
+    '0x6a3173618859C7cd40fAF6921b5E9eB6A76f1fD4',
+    18,
+    'WCRO',
+    'Wrapped CRO',
+    'https://www.crypto.org'
   )
 }
