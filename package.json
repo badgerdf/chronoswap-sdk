@@ -1,7 +1,7 @@
 {
   "name": "chronoswap-sdk",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An SDK for building applications on top of chronoswap.",
   "main": "dist/index.js",
   "module": "dist/sdk.esm.js",
