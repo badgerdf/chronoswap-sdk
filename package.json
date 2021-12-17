@@ -1,7 +1,7 @@
 {
   "name": "chronoswap-sdk",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An SDK for building applications on top of chronoswap.",
   "main": "dist/index.js",
   "module": "dist/sdk.esm.js",
@@ -23,7 +23,7 @@
     "start": "tsdx watch",
     "test": "tsdx test",
     "prepublishOnly": "tsdx build",
-    "prepare": "rm -rf ./dist && yarn build"
+    "prepare": "yarn build"
   },
   "dependencies": {
     "big.js": "^5.2.2",
